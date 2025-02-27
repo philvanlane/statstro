@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Western';
+    src: url('../fonts/WEST____.TTF') format('truetype');
+}
+
+@font-face {
+    font-family: 'Quentin';
+    src: url(../fonts/QuentinCaps.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Outlaw';
+    src: url(../fonts/Cowboy\ Outlaw.otf) format('opentype');
+}
+
+.welcome-text {
+  color: rgb(129, 23, 23);
+  font-weight: 100;
+  text-align: center;
+  font-family: 'Quentin', sans-serif;
+  font-size: 5em;
+}
+
+.subheading {
+    color: rgb(129, 23, 23);
+    text-align: center;
+    font-family: 'Outlaw', sans-serif;
+    font-size: 4em;
+}
+
