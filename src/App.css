@@ -1,16 +1,33 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.App {
+  text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.navbar {
+  background-color: tan;
+  display: flex;
+  justify-content: left;
+  padding: 15px 15px;
+  border-width: 0px 0px 5px 0px;
+  border-color: #4e3d1a;
+  border-style: solid;
+}
+
+.artLogo {
+  justify-content: left;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: block;
 }
 
 .App-header {

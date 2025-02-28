@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import Statstro2025 from './components/Statstro2025';
 import Schedule from './components/statstro2024/Schedule';
 import './App.css';
@@ -7,20 +7,22 @@ import './App.css';
 
 function App() {
   return (
+    <div className = 'container-xl app-class'>
     <Router>
-      <div className="Welcome bar">
-        <div className="artLogo">
+      <nav className="navbar">
+        <div>
           <a href="https://astrostatuoft.com/" target="_blank" rel="noopener noreferrer">
-            <img src={`${process.env.PUBLIC_URL}/logo.svg`} alt="ART Logo" width="150px" />
+            <img className="artLogo" src={`${process.env.PUBLIC_URL}/logo.svg`} alt="ART Logo" width="150px" />
           </a>
         </div>
-        <Switch>
+      </nav>
+      <Switch>
           <Route exact path="/" component={Statstro2025} />
           <Route path="/2025" component={Statstro2025} />
           <Route path="/2024" component={Schedule} />
         </Switch>
-      </div>
     </Router>
+    </div>
   );
 }
 
