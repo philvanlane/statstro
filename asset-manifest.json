@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/statstro/static/css/main.c6f7fa69.css",
-    "main.js": "/statstro/static/js/main.b1c428c2.js",
-    "static/js/453.959a53be.chunk.js": "/statstro/static/js/453.959a53be.chunk.js",
-    "static/media/western_bg_1.jpg": "/statstro/static/media/western_bg_1.e5111bce6023e0cc5346.jpg",
-    "static/media/QuentinCaps.ttf": "/statstro/static/media/QuentinCaps.9c26818431bb748b7487.ttf",
-    "static/media/WEST____.TTF": "/statstro/static/media/WEST____.f62bf3d5d66bcd6dbd7f.TTF",
-    "static/media/Cowboy Outlaw.otf": "/statstro/static/media/Cowboy Outlaw.97f7ca835ef41970fccd.otf",
-    "index.html": "/statstro/index.html",
-    "main.c6f7fa69.css.map": "/statstro/static/css/main.c6f7fa69.css.map",
-    "main.b1c428c2.js.map": "/statstro/static/js/main.b1c428c2.js.map",
-    "453.959a53be.chunk.js.map": "/statstro/static/js/453.959a53be.chunk.js.map"
+    "main.css": "/static/css/main.f547f580.css",
+    "main.js": "/static/js/main.61b0ae51.js",
+    "static/js/453.959a53be.chunk.js": "/static/js/453.959a53be.chunk.js",
+    "static/media/western_bg_1.jpg": "/static/media/western_bg_1.e5111bce6023e0cc5346.jpg",
+    "static/media/QuentinCaps.ttf": "/static/media/QuentinCaps.9c26818431bb748b7487.ttf",
+    "static/media/WEST____.TTF": "/static/media/WEST____.f62bf3d5d66bcd6dbd7f.TTF",
+    "static/media/Cowboy Outlaw.otf": "/static/media/Cowboy Outlaw.97f7ca835ef41970fccd.otf",
+    "index.html": "/index.html",
+    "main.f547f580.css.map": "/static/css/main.f547f580.css.map",
+    "main.61b0ae51.js.map": "/static/js/main.61b0ae51.js.map",
+    "453.959a53be.chunk.js.map": "/static/js/453.959a53be.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6f7fa69.css",
-    "static/js/main.b1c428c2.js"
+    "static/css/main.f547f580.css",
+    "static/js/main.61b0ae51.js"
   ]
 }
