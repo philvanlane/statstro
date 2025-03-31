@@ -25,7 +25,7 @@
   align-items: center;
   justify-content: center;
   width: 90%; /* Increase the width to make the container wider */
-  padding: 50px;
+  padding: 30px;
   margin-top: 50px; /* Add space between the saloon_sign image and the top of the component */
   height: auto; /* Ensure the container has a defined height */
 }
@@ -43,7 +43,7 @@
 
 @media (max-width: 350px) {
   .title-container {
-    padding: 20px; /* Adjust padding for smaller screens */
+    padding: 10px; /* Adjust padding for smaller screens */
   }
   .saloon-sign {
     display: none; /* Hide the image below 350px width */
@@ -53,7 +53,7 @@
 .heading {
   color: rgb(73, 32, 6);
   font-weight: 300;
-  font-size: clamp(2.5rem, 5.5vw, 6rem); /* Use clamp() for responsive font size with min and max */
+  font-size: clamp(3.5rem, 6vw, 7rem); /* Use clamp() for responsive font size with min and max */
   font-family: 'Quentin', sans-serif;
   text-align: center;
   margin: 0; /* Remove default margin */
@@ -64,7 +64,7 @@
   font-family: 'Outlaw', sans-serif;
   color: rgb(100, 47, 0);
   font-weight: 200;
-  font-size: clamp(2rem, 4.5vw, 4rem); /* Use clamp() for responsive font size with min and max */
+  font-size: clamp(3rem, 5.5vw, 5rem); /* Use clamp() for responsive font size with min and max */
   text-align: center;
   font-style: italic;
   margin-top: 10px; /* Add margin to separate from heading */

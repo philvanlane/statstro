@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Western';
+    src: url('../fonts/WEST____.TTF') format('truetype');
+}
+
+@font-face {
+    font-family: 'Quentin';
+    src: url(../fonts/QuentinCaps.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Outlaw';
+    src: url(../fonts/Cowboy\ Outlaw.otf) format('opentype');
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.title-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%; /* Increase the width to make the container wider */
+  padding: 30px;
+  margin-top: 50px; /* Add space between the saloon_sign image and the top of the component */
+  height: auto; /* Ensure the container has a defined height */
+}
+
+.saloon-sign {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: auto;
+  opacity: 0.6;
+  z-index: -1; /* Ensure the image is behind the text */
+}
+
+@media (max-width: 350px) {
+  .title-container {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+  .saloon-sign {
+    display: none; /* Hide the image below 350px width */
+  }
+}
+
+.heading {
+  color: rgb(73, 32, 6);
+  font-weight: 300;
+  font-size: clamp(3.5rem, 6vw, 7rem); /* Use clamp() for responsive font size with min and max */
+  font-family: 'Quentin', sans-serif;
+  text-align: center;
+  margin: 0; /* Remove default margin */
+  padding: 0 10%; /* Add padding to ensure text stays within a narrower area */
+}
+
+.subheading {
+  font-family: 'Outlaw', sans-serif;
+  color: rgb(100, 47, 0);
+  font-weight: 200;
+  font-size: clamp(3rem, 5.5vw, 5rem); /* Use clamp() for responsive font size with min and max */
+  text-align: center;
+  font-style: italic;
+  margin-top: 10px; /* Add margin to separate from heading */
+  padding: 0 10%; /* Add padding to ensure text stays within a narrower area */
+}
+
+@media (max-width: 768px) {
+  .subheading {
+    margin-top: 5px; /* Adjust margin for smaller screens */
+  }
+}
+
+.schedule2025-container {
+  position: relative;
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+  padding: 0px;
+  text-align: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.schedule2025-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/western_bg_1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.2;
+  z-index: -1; /* Ensure the background is behind the content */
+}
+
+.content {
+    font-size: 2em;
+    margin-top: 75px;
+    font-weight: 500;
+}
+

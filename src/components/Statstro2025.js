@@ -5,11 +5,12 @@ const Statstro2025 = () => {
   return (
     <div className="statstro2025-container">
       <div className="title-container">
+        {/* <img className="saloon-sign" src={`${process.env.PUBLIC_URL}/images/saloon_sign.png`} alt="Saloon Sign" /> */}
         <h1 className="heading">
           STATSTRO 2025 <br></br>
         </h1>
         <div className="subheading">
-          Wrangling Data: Big and Small
+          Wrangling Big Data
         </div>
       </div>
       <div className="content">

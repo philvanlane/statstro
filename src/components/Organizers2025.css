@@ -1,0 +1,65 @@
+.organizer-card-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next row */
+    justify-content: center; /* Center the cards horizontally */
+    align-content: center;
+    align-items: center;
+    max-width: 350px;
+    margin: 0 auto; /* Center the container horizontally */
+    height: 550px;
+}
+
+.org-content {
+    display: flex;
+    flex-wrap: wrap; /* Enable wrapping for organizer cards */
+    justify-content: center; /* Center the cards horizontally */
+    justify-items: center;
+    align-items: center; /* Center the cards horizontally */
+    gap: 60px; /* Add spacing between cards in both directions */
+    margin-top: 2em;
+    padding-bottom: 2em;
+    max-width: 90%;
+}
+
+.organizers2025-container {
+    justify-items: center;
+    size: fit-content;
+    position: relative;
+    padding-top: 3em;
+}
+
+.organizers2025-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/western_bg_1.jpg');
+    background-size: cover;
+    inset: 0;
+    opacity: 0.2;
+    z-index: -1; /* Ensure the background is behind the content */
+    min-height: 100vh;
+}
+
+.org-title-container {
+    font-size: 50px;
+    padding-bottom: 10px;
+    justify-items: center;
+}
+
+@media (max-width: 500px) {
+    .org-title-container {
+        font-size: 6vw;
+    }
+}
+
+.org-heading {
+    color: rgb(73, 32, 6);
+    font-family: 'Quentin', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin: 0; /* Remove default margin */
+    padding: 0 10%; /* Add padding to ensure text stays within a narrower area */
+}
