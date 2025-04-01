@@ -53,7 +53,7 @@
 .heading {
   color: rgb(73, 32, 6);
   font-weight: 300;
-  font-size: clamp(3.5rem, 6vw, 7rem); /* Use clamp() for responsive font size with min and max */
+  font-size: clamp(3.5rem, 6vw, 6rem); /* Use clamp() for responsive font size with min and max */
   font-family: 'Quentin', sans-serif;
   text-align: center;
   margin: 0; /* Remove default margin */
@@ -64,17 +64,11 @@
   font-family: 'Outlaw', sans-serif;
   color: rgb(100, 47, 0);
   font-weight: 200;
-  font-size: clamp(3rem, 5.5vw, 5rem); /* Use clamp() for responsive font size with min and max */
+  font-size: clamp(3rem, 4vw, 3rem); /* Use clamp() for responsive font size with min and max */
   text-align: center;
   font-style: italic;
   margin-top: 10px; /* Add margin to separate from heading */
   padding: 0 10%; /* Add padding to ensure text stays within a narrower area */
-}
-
-@media (max-width: 768px) {
-  .subheading {
-    margin-top: 5px; /* Adjust margin for smaller screens */
-  }
 }
 
 .statstro2025-container {
@@ -103,9 +97,60 @@
   z-index: -1; /* Ensure the background is behind the content */
 }
 
-.content {
+.about-content {
     font-size: 2em;
-    margin-top: 75px;
+    margin-top: 25px;
     font-weight: 500;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    width: 90%
 }
 
+.statstro-logo {
+  width: 30%;
+  aspect-ratio: 1 / 1; /* Maintain a 1:1 aspect ratio */
+  border-style: groove;
+  border-width: 20px;
+  border-color: tan;
+  margin-bottom: 50px;
+  object-fit: cover; /* Ensure the image fits within the aspect ratio */
+  min-width: 300px;
+  min-height: 300px;
+  content: fit-content;
+}
+
+.important-details {
+  border-color: black;
+  border-style: solid;
+  border-width: 5px;
+  padding-block: 15px;
+  padding-inline: 20px;
+  font-family: 'Outlaw', sans-serif;
+  width: fit-content;
+  text-align: left;
+}
+
+.about-text {
+  flex-direction: column;
+  max-width: 50%;
+  margin-left: 50px;
+}
+
+.blurb {
+  width: 100%;
+  font-size: 0.65em;
+  text-align: left;
+  margin-top: 20px;
+}
+
+@media (max-width: 880px) {
+  .subheading {
+    margin-top: 5px; /* Adjust margin for smaller screens */
+  }
+  .about-text {
+    margin-left: 0px;
+    max-width: 90%;
+    margin-bottom: 30px;
+  }
+}

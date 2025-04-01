@@ -14,13 +14,15 @@ const gwen_eadie_site = 'https://www.astro.utoronto.ca/~eadie/intro.html'
 const josh_speagle_site = 'https://joshspeagle.com/'
 const kevin_mckinnon_site = 'https://www.kevinmckinnon.com/'
 const david_li_site = 'https://www.ddavidli.com/'
+const sam_berek_site = 'https://samberek.github.io/samberek/index.html'
 
 export const websites = {
     gwen_eadie: gwen_eadie_site,
     josh_speagle: josh_speagle_site,
     david_li: david_li_site,
     biprateep_dey: biprateep_dey_site,
-    kevin_mckinnon: kevin_mckinnon_site
+    kevin_mckinnon: kevin_mckinnon_site,
+    sam_berek: sam_berek_site
 }
 
 
