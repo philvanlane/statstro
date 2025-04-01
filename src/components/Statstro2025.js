@@ -14,7 +14,9 @@ const Statstro2025 = () => {
         </div>
       </div>
       <div className="about-content">
-        <img className="statstro-logo" src={`${process.env.PUBLIC_URL}/images/statstro_logo.png`} alt="Statstro 2025 Logo" />
+        <div className="statstro-logo">
+          <img  src={`${process.env.PUBLIC_URL}/images/statstro_logo.png`} alt="Statstro 2025 Logo" />
+        </div>
         <div className="about-text">
           <div className="important-details">
           WHEN: <span style={{color: 'rgb(100, 47, 0)'}}>May 14, 2025, 10:00am - 5:00pm EDT</span>
