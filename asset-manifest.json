@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.80f8f3db.css",
-    "main.js": "/static/js/main.b588246e.js",
+    "main.css": "/static/css/main.bd996d1b.css",
+    "main.js": "/static/js/main.8f294862.js",
     "static/js/453.959a53be.chunk.js": "/static/js/453.959a53be.chunk.js",
     "static/media/western_bg_1.jpg": "/static/media/western_bg_1.d8d0f4a05614a5d07d95.jpg",
+    "static/media/parchment_bg.jpg": "/static/media/parchment_bg.ec9498c5d1cbd3aa87be.jpg",
     "static/media/QuentinCaps.ttf": "/static/media/QuentinCaps.9c26818431bb748b7487.ttf",
     "static/media/WEST____.TTF": "/static/media/WEST____.f62bf3d5d66bcd6dbd7f.TTF",
     "static/media/Cowboy Outlaw.otf": "/static/media/Cowboy Outlaw.97f7ca835ef41970fccd.otf",
     "index.html": "/index.html",
-    "main.80f8f3db.css.map": "/static/css/main.80f8f3db.css.map",
-    "main.b588246e.js.map": "/static/js/main.b588246e.js.map",
+    "main.bd996d1b.css.map": "/static/css/main.bd996d1b.css.map",
+    "main.8f294862.js.map": "/static/js/main.8f294862.js.map",
     "453.959a53be.chunk.js.map": "/static/js/453.959a53be.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.80f8f3db.css",
-    "static/js/main.b588246e.js"
+    "static/css/main.bd996d1b.css",
+    "static/js/main.8f294862.js"
   ]
 }
