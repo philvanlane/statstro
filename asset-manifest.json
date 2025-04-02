@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.bd996d1b.css",
+    "main.css": "/static/css/main.fab9ce93.css",
     "main.js": "/static/js/main.8f294862.js",
     "static/js/453.959a53be.chunk.js": "/static/js/453.959a53be.chunk.js",
     "static/media/western_bg_1.jpg": "/static/media/western_bg_1.d8d0f4a05614a5d07d95.jpg",
@@ -9,12 +9,12 @@
     "static/media/WEST____.TTF": "/static/media/WEST____.f62bf3d5d66bcd6dbd7f.TTF",
     "static/media/Cowboy Outlaw.otf": "/static/media/Cowboy Outlaw.97f7ca835ef41970fccd.otf",
     "index.html": "/index.html",
-    "main.bd996d1b.css.map": "/static/css/main.bd996d1b.css.map",
+    "main.fab9ce93.css.map": "/static/css/main.fab9ce93.css.map",
     "main.8f294862.js.map": "/static/js/main.8f294862.js.map",
     "453.959a53be.chunk.js.map": "/static/js/453.959a53be.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd996d1b.css",
+    "static/css/main.fab9ce93.css",
     "static/js/main.8f294862.js"
   ]
 }
