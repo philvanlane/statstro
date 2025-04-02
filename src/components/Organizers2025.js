@@ -33,6 +33,11 @@ const Organizers2025 = () => {
                             bio={bios.biprateep_dey} 
                             id = {'biprateep_dey'}/>
             <OrganizerCard className="organizer-card-container"
+                            name={'Mairead Heiger'}
+                            website={websites.mairead_heiger}
+                            bio={bios.mairead_heiger} 
+                            id = {'mairead_heiger'}/>
+            <OrganizerCard className="organizer-card-container"
                             name={'David Li'}
                             website={websites.david_li}
                             bio={bios.david_li} 

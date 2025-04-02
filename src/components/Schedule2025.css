@@ -22,7 +22,15 @@
   font-size: 50px;
   padding-bottom: 10px;
   justify-items: center;
-  margin-top: 30px;
+  margin-top: 50px;
+}
+
+.sched-subheading {
+  font-family: 'Outlaw', sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+  margin-top: 30px; /* Add margin to separate from heading */
+  padding: 0 10%; /* Add padding to ensure text stays within a narrower area */
 }
 
 .saloon-sign {
@@ -51,17 +59,6 @@
   font-weight: 300;
   text-align: center;
   margin: 0; /* Remove default margin */
-  padding: 0 10%; /* Add padding to ensure text stays within a narrower area */
-}
-
-.subheading {
-  font-family: 'Outlaw', sans-serif;
-  color: rgb(100, 47, 0);
-  font-weight: 200;
-  font-size: clamp(3rem, 5.5vw, 5rem); /* Use clamp() for responsive font size with min and max */
-  text-align: center;
-  font-style: italic;
-  margin-top: 10px; /* Add margin to separate from heading */
   padding: 0 10%; /* Add padding to ensure text stays within a narrower area */
 }
 
@@ -98,8 +95,8 @@
 }
 
 .schedule-content {
-    font-size: 2em;
-    margin-top: 75px;
+    font-size: 1.5em;
+    margin-top: 30px;
     font-weight: 500;
 }
 
