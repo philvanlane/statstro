@@ -56,6 +56,7 @@
 }
 
 .org-heading {
+    font-size: clamp(3.5rem, 7vw, 6rem); /* Use clamp() for responsive font size with min and max */
     color: rgb(73, 32, 6);
     font-family: 'Quentin', sans-serif;
     font-weight: 300;

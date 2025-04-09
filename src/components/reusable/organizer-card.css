@@ -74,3 +74,8 @@
     color: rgb(79,37,0); /* Style for visited links inside .register-button */
     text-decoration: none;
   }
+
+  .site-button a {
+    color: rgb(79,37,0); /* Style for visited links inside .register-button */
+    text-decoration: none;
+  }

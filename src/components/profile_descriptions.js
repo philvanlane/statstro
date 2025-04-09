@@ -16,6 +16,7 @@ const josh_speagle_site = 'https://joshspeagle.com/'
 const kevin_mckinnon_site = 'https://www.kevinmckinnon.com/'
 const david_li_site = 'https://www.ddavidli.com/'
 const sam_berek_site = 'https://samberek.github.io/samberek/index.html'
+const phil_vanlane_site = 'http://philvanlane.com/'
 
 export const websites = {
     gwen_eadie: gwen_eadie_site,
@@ -23,7 +24,8 @@ export const websites = {
     david_li: david_li_site,
     biprateep_dey: biprateep_dey_site,
     kevin_mckinnon: kevin_mckinnon_site,
-    sam_berek: sam_berek_site
+    sam_berek: sam_berek_site,
+    phil_vanlane: phil_vanlane_site
 }
 
 

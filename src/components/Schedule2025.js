@@ -1,5 +1,6 @@
 import React from 'react';
 import './Schedule2025.css'; // Import the CSS file
+import ScheduleBlock from './reusable/schedule-block';
 
 const Schedule2025 = () => {
   return (
@@ -19,7 +20,6 @@ const Schedule2025 = () => {
         Paul Scholz<br></br>
         Laurie Rousseau-Nepton <br></br>
         Pauline Barmby <br></br>
-        Mike Walmsley <br></br>
         Meredith Franklin <br></br><br></br><br></br>
         Detailed schedule coming soon...
       </div>

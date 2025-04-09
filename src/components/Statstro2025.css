@@ -161,3 +161,20 @@
     margin-bottom: 30px;
   }
 }
+
+.footer {
+  justify-self: center;
+  text-align: center;
+  width: 70%;
+  max-width: 1200px;
+  min-width: 300px;
+  color: black;
+  padding: 10px;
+  font-size: small;
+  margin-top: 60px;
+  margin-bottom: 20px;
+
+  a {
+    text-decoration: none;
+  }
+}

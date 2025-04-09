@@ -37,6 +37,10 @@ const Statstro2025 = () => {
             </div>
             </div>
       </div>
+      <div className="footer">
+    &copy; 2025 Astrostatistics Research Team at University of Toronto. The ART is based out of the <a href="https://www.statistics.utoronto.ca/" target="_blank" rel="noreferrer">Department of Statistical Sciences</a> and the <a href="https://www.astro.utoronto.ca/" target="_blank" rel="noreferrer">David A. Dunlap Department of Astronomy & Astrophysics</a>, with additional support from the <a href="https://www.dunlap.utoronto.ca/" target="_blank" rel="noreferrer">Dunlap Institute for Astronomy & Astrophysics</a> and the <a href="https://datasciences.utoronto.ca/" target="_blank" rel="noreferrer">Data Sciences Institute</a>.
+    This website was built and designed by <a href="http://www.philvanlane.com" target="_blank" rel="noreferrer">Phil Van-Lane </a>.
+      </div>
     </div>
   );
 };

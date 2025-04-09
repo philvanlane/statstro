@@ -36,42 +36,6 @@
   display: flex;
 }
 
-.route-link {
-  padding: 30px;
-  color: rgb(79, 37, 0);
-  font-size: large;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.route-link a:visited {
-  color: rgb(79, 37, 0); /* Style for visited links inside .route-link */
-}
-
-.register-button a:visited {
-  color: white; /* Style for visited links inside .register-button */
-}
-
-.link {
-  text-decoration: none;
-}
-
-.register-button {
-  background-color: rgb(79, 37, 0);
-  font-size: x-large;
-  color: white;
-  font-weight: bold;
-  border: none;
-  border-radius: 5px;
-  margin-left: 50px;
-  padding: 20px 30px;
-  max-height: fit-content;
-  font-size: medium;
-  cursor: pointer;
-  text-decoration: none;
-  align-self: center;
-}
-
 @media (max-width: 768px) {
   .nav-links {
     flex-direction: column; /* Stack links vertically */
@@ -111,4 +75,49 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.route-link {
+  padding: 30px;
+  color: rgb(79, 37, 0) !important;
+  font-size: large;
+  font-weight: bold;
+  text-decoration: none !important
+}
+
+.route-link a {
+  color: rgb(79, 37, 0) !important;
+}
+
+
+.route-link a:visited {
+  color: rgb(79, 37, 0) !important; /* Style for visited links inside .route-link */
+}
+
+.register-button a:visited {
+  color: white !important; /* Style for visited links inside .register-button */
+}
+
+.register-button a {
+  color: white !important; /* Style for visited links inside .register-button */
+}
+
+.link {
+  text-decoration: none !important;
+}
+
+.register-button {
+  background-color: rgb(79, 37, 0) !important;
+  font-size: x-large;
+  color: white !important;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin-left: 50px;
+  padding: 20px 30px;
+  max-height: fit-content;
+  font-size: medium;
+  cursor: pointer;
+  text-decoration: none;
+  align-self: center;
 }
