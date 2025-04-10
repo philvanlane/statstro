@@ -1,0 +1,19 @@
+.sched-item {
+    display: flex;
+    width: 100%;
+    text-align: left;
+    font-size: larger;
+    margin-block: 20px;
+}
+
+.sched-item-time {
+    padding-right: 40px;
+    text-align: left;
+    align-content: center;
+    font-weight: 600;
+}
+
+.sched-item-deets {
+    font-size: medium;
+    font-weight: 500;;
+}

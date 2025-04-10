@@ -1,0 +1,38 @@
+.acc-header {
+    width: 100%; /* Ensure the header takes up the full width of the parent container */
+    background-color: rgb(100, 47, 0);
+    color: white;
+    padding-block: 10px;
+    text-align: left;
+    padding-inline: 20px;
+    justify-content: space-between;
+    font-family: 'Outlaw', sans-serif;
+    font-size: x-large;
+    display: flex;
+    box-sizing: border-box; /* Include padding and borders in the element's total width */
+    cursor: pointer;
+}
+
+.acc-content {
+    background-color: rgba(210, 180, 140, 0.5);
+    padding: 10px;
+    text-align: left;
+}
+
+.acc {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(79, 37, 0);
+    overflow: hidden; /* Prevent content from overflowing the container */
+    box-sizing: border-box; /* Include padding and borders in the element's total width/height */
+    width: 100%; /* Ensure the accordion container has a defined width */
+}
+
+.name-and-time {
+    display: flex;
+}
+
+.time {
+    padding-right: 40px;
+}

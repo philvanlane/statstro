@@ -11,6 +11,7 @@ const Schedule2025 = () => {
           Schedule <br></br>
         </h1>
       </div>
+      <ScheduleBlock className="sched-card"/>
       <div className="sched-subheading">
         Confirmed Speakers/Panelists:
         </div>

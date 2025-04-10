@@ -1,0 +1,11 @@
+.schedule-block-container {
+    max-width: 1200px;
+    min-width: 300px;
+    width: 80%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.acc {
+    margin-block: 10px;
+}

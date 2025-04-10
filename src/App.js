@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Statstro2025 from './components/Statstro2025';
 import Organizers2025 from './components/Organizers2025';
 import './App.css';
@@ -27,16 +27,16 @@ function App() {
             <a className="link" href="/#/2025/organizers">Organizers</a>
           </div>
           <div className="register-button">
-            <a className="link" target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSfJglL53dmthZWVI3CofUMhnibFEWr5sVR3-NoFrbWm9Hy8bg/viewform?usp=dialog">REGISTER</a>
+            <a className="link"  target="_blank" rel="noreferrer"href="https://docs.google.com/forms/d/e/1FAIpQLSfJglL53dmthZWVI3CofUMhnibFEWr5sVR3-NoFrbWm9Hy8bg/viewform?usp=dialog">REGISTER</a>
           </div>
         </div>
       </nav>
-      <Switch>
-          <Route exact path="/" component={Statstro2025} />
-          <Route exact path="/2025" component={Statstro2025} />
-          <Route path="/2025/schedule" component={Schedule2025} />
-          <Route path="/2025/organizers" component={Organizers2025} />
-        </Switch>
+      <Routes>
+          <Route path="/" element={<Statstro2025/>} />
+          <Route path="/2025" element={<Statstro2025/>} />
+          <Route path="/2025/schedule" element={<Schedule2025/>} />
+          <Route path="/2025/organizers" element={<Organizers2025/>} />
+        </Routes>
     </Router>
     </div>
   );

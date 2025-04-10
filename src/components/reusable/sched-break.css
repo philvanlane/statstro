@@ -1,0 +1,28 @@
+.break {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(79, 37, 0);
+    overflow: hidden; /* Prevent content from overflowing the container */
+    box-sizing: border-box; /* Include padding and borders in the element's total width/height */
+    width: 100%; /* Ensure the accordion container has a defined width */
+    background-color: transparent;
+    color: rgb(100, 47, 0);
+    padding-block: 10px;
+    text-align: left;
+    padding-inline: 20px;
+    justify-content: space-between;
+    font-family: 'Outlaw', sans-serif;
+    font-size: x-large;
+    display: flex;
+    box-sizing: border-box; /* Include padding and borders in the element's total width */
+    cursor: pointer;
+}
+
+.sched-name-and-time {
+    display: flex;
+}
+
+.sched-time {
+    padding-right: 40px;
+}
