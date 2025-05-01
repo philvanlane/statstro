@@ -7,13 +7,18 @@
 }
 
 .sched-item-time {
-    padding-right: 40px;
+    padding-right: 30px;
     text-align: left;
     align-content: center;
     font-weight: 600;
+    min-width: 150px;
 }
 
 .sched-item-deets {
     font-size: medium;
-    font-weight: 500;;
+    font-weight: 500;
+}
+
+.lt-talk {
+    color: rgb(255, 157, 0);
 }

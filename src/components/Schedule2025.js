@@ -12,18 +12,6 @@ const Schedule2025 = () => {
         </h1>
       </div>
       <ScheduleBlock className="sched-card"/>
-      <div className="sched-subheading">
-        Confirmed Speakers/Panelists:
-        </div>
-      <div className="schedule-content">
-        Aviad Levis<br></br>
-        Renée Hložek<br></br>
-        Paul Scholz<br></br>
-        Laurie Rousseau-Nepton <br></br>
-        Pauline Barmby <br></br>
-        Meredith Franklin <br></br><br></br><br></br>
-        Detailed schedule coming soon...
-      </div>
     </div>
   );
 };
