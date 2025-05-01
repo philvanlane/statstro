@@ -26,9 +26,9 @@ function App() {
           <div className="route-link">
             <a className="link" href="/#/2025/organizers">Organizers</a>
           </div>
-          <div className="register-button">
+          {/* <div className="register-button">
             <a className="link"  target="_blank" rel="noreferrer"href="https://docs.google.com/forms/d/e/1FAIpQLSfJglL53dmthZWVI3CofUMhnibFEWr5sVR3-NoFrbWm9Hy8bg/viewform?usp=dialog">REGISTER</a>
-          </div>
+          </div> */}
         </div>
       </nav>
       <Routes>

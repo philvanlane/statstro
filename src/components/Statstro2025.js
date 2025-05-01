@@ -28,12 +28,16 @@ const Statstro2025 = () => {
           <span style={{fontWeight: 'bold',fontStyle: 'italics'}}>Sponsored by the Dunlap Institute and the Department of Statistical Sciences.</span>
           <br></br>
           <br></br>
-          We are thrilled to announce the <b>STATSTRO 2025 WORKSHOP</b> (formerly Stellar Stats), co-hosted between the Department of Statistical Sciences, the Dunlap Institute for Astronomy & Astrophysics, and the David A. Dunlap Department of Astronomy & Astrophysics. Our theme for this year will be <b><i>Wrangling Data: Big and Small.</i></b>
-          This 1-day workshop is intended to foster new and existing interdisciplinary collaborations between astronomy and statistics!
-          There will be FREE LUNCH and no registration fee. This will be a hybrid meeting with both in-person and online participation options.
-          Anyone interested is encouraged to attend (including summer students)! Please register using the link on this site
-          by <b><i>11:59 pm on Wednesday, April 30th</i></b> so we know how much food to order. (You are still welcome to attend even if you don’t end up registering by the deadline!)
-          Early career researchers (undergraduate students, graduate students, and postdoctoral researchers) who are interested in attending are also highly encouraged to sign up to give a 5-minute lightning talk highlighting their work.
+          Zoom link for remote participants:
+          <br></br>
+          <b><a href="https://utoronto.zoom.us/j/84579586552" target="_blank" rel="noreferrer">https://utoronto.zoom.us/j/84579586552</a> (passcode: 376350)</b>
+          <br></br>
+          <br></br>
+  
+          We are thrilled to announce the <b>STATSTRO 2025 WORKSHOP</b>, co-hosted between the Department of Statistical Sciences, the Dunlap Institute for Astronomy & Astrophysics, and the David A. Dunlap Department of Astronomy & Astrophysics. Our theme for this year will be <b><i>Wrangling Data: Big and Small.</i></b> This 1-day workshop is intended to foster new and existing interdisciplinary collaborations between astronomy and statistics! Lunch will be provided.
+          <br></br>
+          <br></br>
+          <i>Registration is now closed.</i>
             </div>
             </div>
       </div>
