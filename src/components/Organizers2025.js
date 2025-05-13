@@ -37,11 +37,11 @@ const Organizers2025 = () => {
                             website={websites.mairead_heiger}
                             bio={bios.mairead_heiger} 
                             id = {'mairead_heiger'}/>
-            <OrganizerCard className="organizer-card-container"
+            {/* <OrganizerCard className="organizer-card-container"
                             name={'David Li'}
                             website={websites.david_li}
                             bio={bios.david_li} 
-                            id = {'david_li'}/>
+                            id = {'david_li'}/> */}
             <OrganizerCard className="organizer-card-container"
                             name={'Kevin McKinnon'}
                             website={websites.kevin_mckinnon}

@@ -17,7 +17,7 @@ const Accordion = ({time,title,chair,children}) => {
               </div>
             )}
             </div>
-            </div> 
+        </div> 
       <div className="expand-arrow" style={{transform: isOpen ? 'rotate(90deg)' : 'rotate(0deg)' }}>
         <i class="fa-solid fa-caret-right"/>
 
