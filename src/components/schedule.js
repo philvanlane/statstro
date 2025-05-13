@@ -1,7 +1,7 @@
 export const sched_intro = [
     {
         time: "10:00 - 10:15",
-        speaker: "Gwendolyn Eadier and co-organizers",
+        speaker: "Gwendolyn Eadie and co-organizers",
         title: "Welcome and opening remarks"
     }
 ]

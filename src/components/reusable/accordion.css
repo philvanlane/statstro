@@ -11,6 +11,7 @@
     display: flex;
     box-sizing: border-box; /* Include padding and borders in the element's total width */
     cursor: pointer;
+    position: relative; /* Set relative positioning for the header */
 }
 
 .acc-content {
@@ -41,4 +42,23 @@
 .chair-name {
     font-size: smaller;
     align-content: center;
+    padding-left: 10px;
+}
+
+.expand-arrow {
+    position: absolute; /* Position the arrow absolutely within the header */
+    right: 20px; /* Keep it 20px from the right edge */
+    color: white; /* Ensure the arrow matches the header's color */
+}
+
+@media (max-width: 550px) {
+    .name-and-time {
+       flex-direction: column;
+    }
+    .chair-name {
+        padding-left: 0px;
+    }
+    .acc-header {
+        margin-right: 5px;
+    }
 }

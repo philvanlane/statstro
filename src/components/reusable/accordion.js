@@ -7,18 +7,21 @@ const Accordion = ({time,title,chair,children}) => {
   return (
     <div className='acc container'>
       <div className="acc-header" onClick={() => setIsOpen(!isOpen)}>
+      <div className="header-desc">
         <div className="name-and-time">
             <div className="time">{time}</div>
             <div>{title}</div>
             {chair && (
-            <div className='chair-name'>&nbsp;&nbsp;&nbsp;
-          (Chair: {chair})
-        </div>
-      )}     
-      </div>
-        <div className="expand-arrow" style={{transform: isOpen ? 'rotate(90deg)' : 'rotate(0deg)' }}>
+              <div className='chair-name'>
+                (Chair: {chair})
+              </div>
+            )}
+            </div>
+            </div> 
+      <div className="expand-arrow" style={{transform: isOpen ? 'rotate(90deg)' : 'rotate(0deg)' }}>
         <i class="fa-solid fa-caret-right"/>
-        </div>
+
+      </div>
       </div>
       {isOpen && (
         <div className='acc-content'>

@@ -7,6 +7,7 @@
 }
 
 .sched-item-time {
+    display: flex;
     padding-right: 30px;
     text-align: left;
     align-content: center;
@@ -21,4 +22,13 @@
 
 .lt-talk {
     color: rgb(255, 157, 0);
+}
+
+@media (max-width: 550px) {
+    .sched-item-time {
+        min-width: 90px;
+        max-width: 90px;
+        flex-direction: column;
+        padding-right: 0px;
+    }
 }
