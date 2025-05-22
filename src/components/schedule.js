@@ -64,6 +64,7 @@ export const sched_aft1 = [
         time: "14:00 - 14:20",
         speaker: "Paul Scholz",
         title: "Fast Radio Bursts, CHIME, and CHORD",
+        slides: "S3_01_PaulScholz.pdf",
         recording: "S3_01_PaulScholz.mp4"
     },
     {
