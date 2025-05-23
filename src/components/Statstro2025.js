@@ -12,6 +12,19 @@ const Statstro2025 = () => {
         <div className="subheading">
           Wrangling Data: Big and Small
         </div>
+        <hr className='hr'></hr>
+        <div className='ty'>
+          Thank for you for your participation!
+        </div>
+        <div className='attendee-info'>
+          Slides and recordings (where available) can be found on the <a href="#/2025/schedule"><b>Schedule</b></a> page.
+          <br></br>
+          The registrant list can be found on the <a href="#/2025/registrants"><b>Registrants</b></a> page.
+        </div>
+        <div className='group-photo'>
+          <img src={`${process.env.PUBLIC_URL}/images/group_photo.jpg`} alt='Attendees'/>
+        </div>
+        <hr className='hr'></hr>
       </div>
       <div className="about-content">
         <div className="statstro-logo">
